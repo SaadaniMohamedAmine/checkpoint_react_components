@@ -1,9 +1,10 @@
 import React from 'react' 
 import img from './profile.jpg'
+import '../../App.css'
 
  const ProfilePhoto=() => {
     return (
-        <div>
+        <div className="img">
             <img src={img}  alt="myPic"/>
         </div>
     )

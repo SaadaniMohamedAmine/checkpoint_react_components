@@ -9,9 +9,9 @@ import Address from './Component/Profile/Adress.js'
 function App() {
   return (
     <div className="App">
-      <ProfilePhoto />
       <FullName />
       <Address />
+      <ProfilePhoto className="img"/>  
     </div>
   );
 }
